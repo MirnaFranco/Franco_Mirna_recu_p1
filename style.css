@@ -72,6 +72,7 @@ a {
 aside nav ul {
     list-style-type: none;
     padding: 0;
+    flex-direction: column;
 }
 
 aside nav ul li {
@@ -81,4 +82,5 @@ aside nav ul li {
 aside nav ul li a {
     text-decoration: none;
     color: #333;
+    display: block;
 }
